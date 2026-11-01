@@ -1,0 +1,20 @@
+{
+  "name": "NEON ARCADE · 霓虹游戏厅",
+  "short_name": "NeonArcade",
+  "description": "38 款硬核 HTML5 小游戏合集：Canvas / WebGL / WebAudio / Three.js，程序化音乐，全离线可玩。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070b16",
+  "theme_color": "#070b16",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
