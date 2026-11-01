@@ -135,7 +135,6 @@ export function create(ctx) {
       if (arr[i].z < behindZ) {
         const m = arr[i].mesh || arr[i].group;
         scene.remove(m);
-        try { if (m.geometry && m.geometry !== floorMat) {} } catch {}
         arr.splice(i, 1);
       }
     }
